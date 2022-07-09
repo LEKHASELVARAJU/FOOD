@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container {
+    background-color: gray;
+    width: 100vwa;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        font-size :1.8em; 
+  }
+  #titleName {
+    background-color:rgb(129, 204, 204);
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    text-align: center;
+    margin-top: 3em;
+  }
+  #titleName h1{
+    color: black;
+    position: absolute;
+  }
+  #favFood1 {
+    background-color:rgb(159, 228, 221);
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    text-align: center;
+  }
+  #favFood2 {
+    background-color: rgb(236, 168, 190);
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    text-align: center;
+  }
+  #favFood3 {
+    background-color: rgb(206, 177, 234);
+    width: 80vw;
+    height: 60vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    text-align: center;
+  }
+  #titleImage {
+    height: 50vh;
+    width: 80vw;
+  }
+  #favFoodImage1, #favFoodImage2,#favFoodImage3 {
+    height: 30vh;
+    width: 40vw;
+    border: solid white;
+    padding: 2px;
+  }
+  
+
